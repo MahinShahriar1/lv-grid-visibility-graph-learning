@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local data and generated artifacts
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+outputs/
+saved_timeseries/
+training_logs*/
+community_outputs/
+community_outputs_zone_plots/
+
+# Private/sensitive data files
+*.csv
+*.xlsx
+*.xls
+*.mat
+*.npy
+*.npz
+*.h5
+*.pkl
+*.joblib
+
+# Model checkpoints
+*.pt
+*.pth
+
+# Generated plots/reports
+*.png
+*.pdf
+*.docx
+
+# Environment/local IDE
+.env
+.idea/
+.vscode/
